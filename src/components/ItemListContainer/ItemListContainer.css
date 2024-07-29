@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+  }
+p {
+    line-height: 1.8;
+
+}
+
+.catalogo
+{ display: flex;}
+
+
+.producto {
+    max-width: 40%;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 20px;
+    box-shadow: 2px 6px 3px 3px rgba(0, 0, 0, 0.3);
+}
+.precioProducto {
+    font-weight: 700;    
+}

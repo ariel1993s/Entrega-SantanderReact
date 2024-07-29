@@ -1,0 +1,36 @@
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+   
+  }
+  .boton-carrito {
+
+    border: none;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    background-color: white;
+    border-radius: 40%;
+    padding: 10px 20px;
+    transition: all .3s;
+}
+.boton-carrito:hover {
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: #848484;
+}
+.boton-carrito:focus {
+    outline: none;
+}
+
+.logo {
+    background-position: 30px;
+    height: 45px;
+    width: 45px;
+    border-radius: 10%;
+}
+
+.cart-widget{
+    display: flex;
+    justify-content:end
+}
